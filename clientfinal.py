@@ -31,6 +31,7 @@ def decryption(encryptedText):   #for decryption
 
 soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #creating socket
 soc.connect(('127.0.0.1',8888))   #connecting socket
+# soc.connect(('ip or url of ngrok','port of ngrok'))   # To be used for remote location
 
 Server_pub = soc.recv(1024)   #receiving public key from server
 key = Server_pub.decode('utf-8')

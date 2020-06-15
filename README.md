@@ -1,5 +1,5 @@
-# Encrypted-Socket-programming
-  Encrypted Socket Programming in python3 with pycrypto module
+# Simple Encrypted-Socket-programming
+  A Simple Encrypted Socket Programming in python3 with pycrypto module
 
 ## Install pycrypto module
   pip install pycrypto  (for windows)

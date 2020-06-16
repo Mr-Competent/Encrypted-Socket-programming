@@ -13,3 +13,6 @@
    - uncomment the line     #soc.connect(('ip or url of ngrok','port of ngrok'))  like **soc.connect(('ip or url of ngrok','port of ngrok'))**
    - use the ip or url and port allocated by ngrok
    
+   ![Server](serverfinal.jpg)
+   ![Client](clientfinal.jpg)
+   
